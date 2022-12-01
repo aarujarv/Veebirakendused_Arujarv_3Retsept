@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto+Flex:opsz,wght@8..144,100&family=Roboto:wght@100&display=swap');
+
+body{background-color: silver;}
+
+body h1{text-align: center;
+    font-family: 'Roboto', sans-serif;}
+
+body img{scale: 60%
+}
+
+.Koostisosad{border: 1px solid black;
+width: 50%;
+margin: 0 auto;
+}
+
+.Koostisosad h2{font-family: 'Roboto Condensed', sans-serif;
+text-align: center;}
+
+.puhi{border: 1px solid black;
+margin: 0 auto;
+font-family: 'Roboto Flex', sans-serif;
+padding-bottom: 20px;
+padding-top: 25px;
+padding-left: 25px;
+padding-right: 25px;}
+
+.tai{border: 1px solid black;
+margin: 0 auto;
+font-family: 'Roboto Flex', sans-serif;
+padding-bottom: 20px;
+padding-top: 25px;
+padding-left: 25px;
+padding-right: 25px;}
+
+.juhend{border: 1px solid black;
+width: 50%;
+margin: 0 auto;
+font-family: 'Roboto', sans-serif;}
+
+.juhend ol{width: 60%;
+margin: 0 auto;
+border: 1px solid grey;
+padding: 25px;}
+
+.juhend h2{font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;}
