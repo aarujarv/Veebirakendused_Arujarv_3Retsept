@@ -1,46 +1,124 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto+Flex:opsz,wght@8..144,100&family=Roboto:wght@100&display=swap');
 
-body{background-color: silver;}
+body{background-color: rgb(194, 162, 115);}
 
-body h1{text-align: center;
-    font-family: 'Roboto', sans-serif;}
+body h1
+{text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 32px;
+    font-size: 3rem;
+    animation: pealk;
+    position: relative;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    }
 
-body img{scale: 60%
+    @keyframes pealk 
+    {
+        0%{top: -150px;}
+        75%{top: 125px;}
+        100%{top: 90px;}
+    }
+    
+
+.img
+{
+    scale: 65%
+    
 }
 
-.Koostisosad{border: 1px solid black;
+
+
+.Koostisosad{
 width: 50%;
 margin: 0 auto;
+padding-bottom: 32px;
 }
 
-.Koostisosad h2{font-family: 'Roboto Condensed', sans-serif;
-text-align: center;}
+.Koostisosad h2
+{  
+opacity: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+text-align: center;
+animation: haaa2;
+animation-duration: 3s;
+animation-delay: 2s;
+animation-fill-mode: forwards;
+}
 
-.puhi{border: 1px solid black;
+@keyframes haaa2
+{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.puhi
+{
+opacity: 0;
+border: 1px solid black;
 margin: 0 auto;
 font-family: 'Roboto Flex', sans-serif;
 padding-bottom: 20px;
 padding-top: 25px;
 padding-left: 25px;
-padding-right: 25px;}
+padding-right: 25px;
+animation: pu;
+animation-duration: 3s;
+animation-delay: 3s;
+animation-fill-mode: forwards;
+}
 
-.tai{border: 1px solid black;
+@keyframes pu 
+{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.tai
+{
+opacity: 0;
+border: 1px solid black;
 margin: 0 auto;
 font-family: 'Roboto Flex', sans-serif;
 padding-bottom: 20px;
 padding-top: 25px;
 padding-left: 25px;
-padding-right: 25px;}
+padding-right: 25px;
+animation: pu;
+animation-duration: 3s;
+animation-delay: 3s;
+animation-fill-mode: forwards;
+}
 
-.juhend{border: 1px solid black;
+
+.juhend{
 width: 50%;
 margin: 0 auto;
-font-family: 'Roboto', sans-serif;}
+font-family: 'Roboto', sans-serif;
+}
 
-.juhend ol{width: 60%;
+@keyframes juju 
+{
+    0%{color:red}
+    25%{color: green;}
+    50%{color: yellow;}
+    75%{color: purple;}
+    100%{color:blue}
+}
+
+.juhend ol
+{
+
+width: 60%;
 margin: 0 auto;
-border: 1px solid grey;
-padding: 25px;}
+border: 1px solid rgb(0, 0, 0);
+padding: 25px;
+margin: 25px auto;
+}
 
 .juhend h2{font-family: 'Roboto Condensed', sans-serif;
-    text-align: center;}
+    text-align: center;
+animation: juju;
+animation-duration: 5s;
+animation-iteration-count: infinite;}
